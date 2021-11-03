@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/loader.css" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <script defer src="./new-ad.js" type="module"></script>
+    <title>Nodepop - Crear nuevo anuncio</title>
+  </head>
+  <body>
+    <h1>Crear nuevo anuncio</h1>
+
+    <div class="messages"></div>
+    <form novalidate>
+      <div></div>
+      <div>
+        <input
+          type="text"
+          name="title"
+          placeholder="Título de tu anuncio"
+          required
+          autofocus
+        />
+      </div>
+      <div>
+        <textarea
+          name="description"
+          placeholder="Descripción del anuncio"
+        ></textarea>
+      </div>
+
+      <div>
+        <input
+          type="number"
+          name="price"
+          id="price"
+          min="0"
+          placeholder="Precio del producto"
+          required
+        />
+      </div>
+      <br />
+      <div>
+        <h2 style="margin: 0">Indica el tipo de anuncio:</h2>
+        <input type="radio" name="type" id="buy" value="Compra" required />
+        <label for="buy">Compra</label>
+      </div>
+      <div>
+        <input type="radio" name="type" id="sell" value="Venta" required />
+        <label for="sell">Venta</label>
+      </div>
+      <br />
+      <div>
+        <h2 style="margin: 0">Selecciona una foto:</h2>
+        <input type="file" name="image" id="image" />
+      </div>
+      <br />
+      <button type="submit">Publicar</button>
+    </form>
+  </body>
+</html>

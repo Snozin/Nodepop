@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/loader.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <script defer src="./signup.js" type="module"></script>
+    <title>SignUp - Nodepop</title>
+  </head>
+  <body>
+    <h1>Registro de Usuario</h1>
+
+    <div class="messages"></div>
+    <form novalidate>
+      <div></div>
+      <div>
+        <input
+          type="text"
+          name="username"
+          placeholder="Nombre de usuario"
+          required
+          autofocus
+        />
+      </div>
+
+      <div>
+        <input
+          type="password"
+          name="password"
+          id="password"
+          placeholder="Contraseña"
+          required
+        />
+      </div>
+      <div>
+        <input
+          type="password"
+          name="passwordConfirm"
+          id="passwordConfirm"
+          placeholder="Repite tu contraseña"
+          required
+        />
+      </div>
+      <br />
+      <button type="submit" disabled>Regístrate</button>
+    </form>
+  </body>
+</html>

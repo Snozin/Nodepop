@@ -1,0 +1,48 @@
+{
+  "users": [
+    {
+      "username": "mod",
+      "password": "$2b$10$EOdJhhhYU2Mpslj/nCIWrOao/qQRMuB87VXg9wNmxtszYwM/5wQWW",
+      "id": 1
+    },
+    {
+      "username": "usuario2",
+      "password": "$2b$10$pjfafjsE//IRj5ZOwfjnzee9UWHNnO.2uHZQY/sJ0ASzP/S7zPgIa",
+      "id": 2
+    },
+    {
+      "username": "usuario3",
+      "password": "$2b$10$pjfafjsE//IRj5ZOwfjnzevhROiOvV45vFdg0F6iLpVxCdlKgy0mq",
+      "id": 3
+    }
+  ],
+  "ads": [
+    {
+      "title": "Anuncio 1",
+      "content": "Primer anuncio de prueba introducido desde formulario con un texto absurdamente largo solo por probar.",
+      "price": "1000000",
+      "type": "Venta",
+      "userId": 1,
+      "updatedAt": "2021-11-03T21:22:25.688Z",
+      "id": 1
+    },
+    {
+      "title": "Prueba usuario 2",
+      "content": "Anuncio creado desde el usuario 2",
+      "price": "300",
+      "type": "Venta",
+      "userId": 2,
+      "updatedAt": "2021-11-03T22:08:13.921Z",
+      "id": 2
+    },
+    {
+      "title": "Opel Corsa",
+      "content": "Semi nuevo, apenas uso. \r\nAño 1997\r\n350mil Km",
+      "price": "7000",
+      "type": "Venta",
+      "userId": 1,
+      "updatedAt": "2021-11-03T22:09:21.287Z",
+      "id": 3
+    }
+  ]
+}

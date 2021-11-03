@@ -1,0 +1,42 @@
+a {
+  text-decoration: none;
+}
+
+.messages {
+  display: none;
+  position: absolute;
+  padding: 15px;
+  top: 35%;
+  left: 15%;
+  background-color: white;
+  z-index: 10;
+}
+
+.messages.error {
+  display: initial;
+  color: red;
+  border: 3px solid red;
+}
+
+.messages.success {
+  display: initial;
+  color: green;
+  border: 3px solid green;
+}
+
+#ad-list {
+  background-color: lightgoldenrodyellow;
+}
+
+#ad-list > article {
+  cursor: pointer;
+}
+
+
+input.ok {
+  border: 2px solid green;
+}
+
+input.wrong {
+  border: 2px solid red;
+}
